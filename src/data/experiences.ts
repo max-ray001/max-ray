@@ -34,7 +34,7 @@ const experiences: IExperienceItem[] = [
     startDate: "Dec 2023",
     endDate: "Feb 2024",
     isCurrentJob: false,
-    location: "Tokyo, Japan",
+    location: "Kanagawa, Japan",
     description: [
       "Developed a web-based groupware system, enhancing collaboration and productivity within teams.",
       "Implemented robust data storage solutions, improving system reliability and performance.",

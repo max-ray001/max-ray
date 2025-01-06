@@ -57,6 +57,20 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
             })}
           </Row>
         </div>
+
+        <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
+          <Link
+            key={`resume-link`}
+            href="/resume.pdf"
+            target="_blank"
+            className="app__filled_btn !rounded-full !px-2 lg:!px-3 !border-[var(--textColor)]"
+            aria-label={`resume`}
+          >
+            <span className="text-base/6 text-[var(--whiteColor)]">
+                Download CV
+            </span>
+          </Link>
+        </div>
       </ConstrainedBox>
     </ResponsiveBox>
   );
